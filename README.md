@@ -11,14 +11,14 @@ This project presents an end-to-end machine learning pipeline to predict house p
 - 🧠 Advanced feature engineering including polynomial features and interaction terms
 - 🤖 Stacking ensemble of multiple base models (e.g., RidgeCV, RandomForest, LightGBM, XGBoost, CatBoost, etc.)
 - 🧪 Hyperparameter tuning using `GridSearchCV`
-- 💾 Model serialized using `joblib` for real-world use
+
 
 ---
 
 ## 🧰 Tech Stack
 
 - **Languages**: Python 3.9+
-- **Libraries**: pandas, numpy, scikit-learn, xgboost, lightgbm, catboost, seaborn, matplotlib, joblib
+- **Libraries**: pandas, numpy, scikit-learn, xgboost, lightgbm, catboost, seaborn, matplotlib
 - **Modeling**: StackingRegressor, RidgeCV, RandomForest, BaggingRegressor, LightGBM, XGBoost, CatBoost
 - **Feature Engineering**: Polynomial features, interaction terms, one-hot encoding, standardization
 - **Tuning**: GridSearchCV
